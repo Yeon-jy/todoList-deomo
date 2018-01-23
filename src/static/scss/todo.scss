@@ -1,0 +1,130 @@
+body,
+ul,
+li,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.App {
+    background: #f3f3f3;
+    margin: 0 auto;
+}
+
+.add-todo {
+    background: #f3f3f3;
+    margin: 0 auto;
+    width: 1000px;
+}
+
+form {
+    padding-top: 20px;
+}
+
+.input-box {
+    width: 800px;
+    height: 42px;
+    line-height: 42px;
+    text-indent: 10px;
+    border: 1px solid #e1e1e1;
+}
+
+.add-btn {
+    width: 136px;
+    height: 42px;
+    background: #66c99b;
+    color: #ffffff;
+}
+
+.show-tab {
+    height: 70px;
+    line-height: 70px;
+    text-align: left;
+    padding-left: 40px;
+    span {
+        display: inline-block;
+        padding: 0 10px;
+    }
+    span:hover {
+        color: #33cc99;
+        cursor: pointer;
+    }
+    .show-active {
+        color: #33cc99;
+    }
+    i {
+        display: inline-block;
+        background: #d9d9d9;
+        height: 15px;
+        width: 2px;
+    }
+}
+
+.todo-list {
+    padding: 0 30px;
+    &-item {
+        position: relative;
+        height: 70px;
+        background: #f9fffd;
+        text-align: left;
+        line-height: 70px;
+        text-indent: 20px;
+        border-bottom: 1px dashed #d9d9d9;
+    }
+    .delect-item {
+        display: inline-block;
+        text-decoration: none;
+        color: #ffffff;
+        position: absolute;
+        right: 10px;
+        top: 20px;
+        background: #33cc99;
+        line-height: 30px;
+        height: 30px;
+        width: 60px;
+        text-align: center;
+        border-radius: 4px;
+    }
+    &-item:hover {
+        color: #33cc99;
+    }
+    &-seclect {
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        border: 1px #d9d9d9 solid;
+        margin-right: 20px;
+        border-radius: 3px;
+        padding: 5px;
+    }
+}
+
+.anticon-menu-unfold,
+.anticon-menu-fold{
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin-top: 25px;
+}
+
+#components-layout-demo-custom-trigger .trigger {
+    font-size: 18px;
+    line-height: 64px;
+    padding: 0 24px;
+    cursor: pointer;
+    transition: color .3s;
+}
+
+#components-layout-demo-custom-trigger .trigger:hover {
+    color: #1890ff;
+}
+
+#components-layout-demo-custom-trigger .logo {
+    height: 32px;
+    background: rgba(255, 255, 255, .2);
+    margin: 16px;
+}
