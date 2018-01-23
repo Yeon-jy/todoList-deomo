@@ -19,5 +19,5 @@ npm run dev
 
 效果预览
 
-![react作业](/Users/wangjiayan/Desktop/react作业.gif)
+![react作业](/Users/wangjiayan/Documents/react/todoList-deomo/react作业.gif)
 
